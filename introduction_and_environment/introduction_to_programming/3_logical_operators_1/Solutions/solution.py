@@ -1,0 +1,1 @@
+# Define variables x, y, and z

@@ -2,7 +2,9 @@ def test_solution(monkeypatch):
     x=['ByteAcademy']
     index=-1
 
-    def f(string):
+    #def f(string): #f(string) is expecting input. if there is no input there'll be error.
+    #def f(string) will work
+    def f(string = None):
         nonlocal x
         nonlocal index
         index+=1

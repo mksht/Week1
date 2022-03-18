@@ -1,5 +1,5 @@
 # Code your solution here
-string = input()
+string = input('put inputf')
 if string.isupper():
     data = string.lower()
 elif string.islower():

@@ -1,0 +1,12 @@
+1.just for myself I would like to know but I wasn't able to find what -U option does in installation
+yes, -u stands for user. so pip install -U pytest would install pytest for the particular user as oppsed to global users.
+but if you do sudo apt install python-pip, it would do it globally
+One installs it through Python, the other through your computer's package manager
+for python-pip installed through sudo but pytest installed through user, pytest --version wouldn't work because
+you should be able to run it with python3 -m pytest
+since it's installed via python it might need you to tell python to invoke it
+as opposed to the command working by itself
+Question: old python version 2.... installed through sudo so first, it would be python -m pytest --version, second,
+why so old version? pytest versions also differ. pytest i downloaded through ubuntu is 4. something version
+while 3 days ago when i downloaded it on windows command the version was 7. something. 
+so currently if I used git bash (windows) i would use 7.1.0 version pytest, whil eon wsl/ubuntu i'd use 4.6.11 version
